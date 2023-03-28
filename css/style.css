@@ -1,0 +1,100 @@
+a {
+    color: rgb(71, 68, 68);
+}
+
+
+/* Navigation bar */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0!important;
+  }
+
+.bg-light {
+ background-color: rgb(255, 255, 255)!important;
+
+    }
+
+.navbar-brand img {
+    padding-right: 20px;
+    width: 200px;
+    }
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../images/pexels-elle-hughes-5155218.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.jumboTwo {
+    width: 90%;
+    min-width: 500px;
+    max-width: 700px;
+    color: rgb(71, 68, 68);
+    text-align: center;
+  }
+
+.lead {
+    font-weight: 500;
+  }
+
+.btn-primary {
+    color: rgb(71, 68, 68);
+    background-color: #ffffff;
+    border-color: rgb(71, 68, 68);
+}
+
+
+/* Cards styling */
+.cardContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+.card {
+    border-color: rgb(255, 255, 255) !important;
+  }
+  
+
+/* Contact */
+.yourMessage form {
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+.form {
+    margin: 20px auto;  
+    background-color: #ffffff;
+    padding: 25px; 
+
+  }
+
+  
+/* Footer */
+.form-group {
+    text-align: center;
+    padding: 25px; 
+    font-style: italic;
+}
+
+.footer {
+    background-color: bisque;
+    margin: auto;
+    list-style-type: none;  /* to remove bullets*/
+}
+
+
+/* Button shadow */
+.btn-primary:hover { 
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+
